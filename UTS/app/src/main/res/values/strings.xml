@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Wyndham Dreamland Bali</string>
+
+    <string-array name="data_nama">
+        <item>One Bedroom Suite</item>
+        <item>One Bedroom Suite Ocean View</item>
+        <item>One Bedroom Suite with Whirlpool</item>
+        <item>One Bedroom Pool Villa</item>
+        <item>Two-Bedroom Duplex Pool Villa and Whirlpool</item>
+        <item>Two Bedroom Pool Villa</item>
+    </string-array>
+
+    <string-array name="data_deskripsi">
+        <item>starting from IDR 2.000.000/night get a room with a king size mattress</item>
+        <item>starting from IDR 2.500.000/night get a room with a king size mattress with a dreamland beach view</item>
+        <item>starting from IDR 3.000.000/night get a room with a king size bed with a living room and a whirlpool</item>
+        <item>starting from IDR 5.000.000/night get a villa with a king size bed and private pool which is perfect for you who are on honeymoon</item>
+        <item>starting from IDR 5.200.000/night get a villa with a king size bed and private outdoor swimming pool</item>
+        <item>starting from IDR 8.000.000/night get a five star villa with two bedrooms and a king size bed and private pool</item>
+    </string-array>
+
+    <array name="data_gambar">
+        <item>@drawable/room1</item>
+        <item>@drawable/room2</item>
+        <item>@drawable/room3</item>
+        <item>@drawable/villa1</item>
+        <item>@drawable/villa2</item>
+        <item>@drawable/villa3</item>
+    </array>
+
+    <string-array name="data_text">
+        <item>The Wyndham Dreamland One-Bedroom Suite offers 72 square-meter with a generous living room and separate bedroom complete with king-size bed and luxury linens.
+            Each One Bedroom Suite’s ensuite has a separate shower and deep soaking bathtub.</item>
+        <item>A luxurious home away from home, the Ocean View Suite at Wyndham Dreamland Bali features 72 square-meter with a spacious private balcony and spectacular ocean views.
+            Enjoy the comforts of a stylish living room and separate bedroom complete with king-size bed and luxury linens.</item>
+        <item>Incorporating a host of inclusions to make your stay that little bit more special our One Bedroom Suite with Whirlpool is sure to impress even the most discerning of travellers.
+            Features 72 square-meter include a king-size bed with luxury linens and a large balcony, while the direct whirlpool access provides the ultimate space for relaxation.</item>
+        <item>This luxurious One Bedroom Pool Villa is ideal for the honeymoon couple with a spacious 112 square-meter area, every feature carefully selected to make your stay special and memorable.
+            Each Villa has its own a private pool set amidst tropical gardens.</item>
+        <item>Set amidst tropical gardens, the Two-Bedroom Duplex Pool Villa and Whirlpool is a luxurious private hideaway. This spacious 159 square-meter area sanctuary has two separate bedrooms and a living area with easy access to your gorgeous private outdoor swimming pool.
+            The stylishly appointed bathroom features a double vanity, a separate shower and a luxurious deep soaking bathtub.</item>
+        <item>The Two-Bedroom Private Pool Villa offers five-star luxury. With a spacious 163 square-meter area every imaginable amenity and sumptuous seclusion, this heavenly haven features two stylishly appointed bedrooms.
+            Each has its own ensuite with a separate shower and deep soaking bath.</item>
+    </string-array>
+    
+    <string-array name="data_adventages">
+        <item>Enjoy tropical views from your spacious balcony and easy access to Dreamland Beach.</item>
+        <item>The ensuite features a separate shower and deep soaking bathtub.</item>
+        <item>This generously appointed suite also has its own separate living room and dedicated workspace.</item>
+        <item>The stylishly appointed bathroom features a double vanity, a separate shower and a luxurious deep soaking bathtub.</item>
+        <item>Soothe away your cares in your own whirlpool and enjoy romantic sunset dinners on the sea view terrace.</item>
+        <item>Villas guests enjoy the added space of a separate living room with easy access to the Villa’s own private swimming pool.</item>
+    </string-array>
+
+    <array name="data_facilities">
+        <item>Other features include a work desk, walk-in wardrobe, 42-inch flat-screen TV and free Wi-Fi.</item>
+        <item>Other conveniences include a work desk, walk-in wardrobe, 42-inch flat-screen TV and free Wi-Fi.</item>
+        <item>Other features include a walk-in wardrobe, ensuite with separate shower and deep soaking bathtub, 42-inch flat-screen TV and free Wi-Fi.</item>
+        <item>Other conveniences include a work desk, walk-in wardrobe, 42-inch flat-screen TV and free Wi-Fi.</item>
+        <item>Other conveniences include a work desk, walk-in wardrobe, 42-inch flat-screen TV and free Wi-Fi.</item>
+        <item>Other conveniences include a work desk, walk-in wardrobe, 42-inch flat-screen TV and free Wi-Fi.</item>
+    </array>
+
+    <array name="data_harga">
+        <item>IDR 2.000.000/night</item>
+        <item>IDR 2.500.000/night</item>
+        <item>IDR 3.000.000/night</item>
+        <item>IDR 5.000.000/night</item>
+        <item>IDR 5.200.000/night</item>
+        <item>IDR 8.000.000/night</item>
+
+    </array>
+</resources>
