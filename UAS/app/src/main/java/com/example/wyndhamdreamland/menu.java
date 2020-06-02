@@ -5,7 +5,7 @@ public class menu {
     private String harga;
     private String gambar;
 
-    public menu(String datanama,String dataharga,String datagambar){
+    public menu(String datanama, String dataharga, String datagambar){
         nama = datanama;
         harga = dataharga;
         gambar = datagambar;
