@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -19,6 +20,10 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
 public class MainActivity extends AppCompatActivity {
 private MenuAdapter menuAdapter;
 private RecyclerView recyclerView;
@@ -27,10 +32,12 @@ int jumdata;
 private RequestQueue requestQueue;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setContentView(R.layout.item_menu);
         recyclerView=findViewById(R.id.rv_list);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -68,5 +75,10 @@ private RequestQueue requestQueue;
             }
     });
         requestQueue.add(request);
+    }
+
+    public void Pindah(View view) {
+        Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+        startActivity(intent);
     }
 }

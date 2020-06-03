@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="8dp">
+    android:padding="8dp"
+    tools:context=".MainActivity">
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,13 +31,17 @@
             android:id="@+id/tv_harga"
             android:text="harga"
             android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="book now"
+            android:id="@+id/btn_book"
+            android:background="@drawable/btncustom"
+            android:text="room detail"
             android:textSize="20sp"
-            android:id="@+id/btn_book"/>
+            android:textColor="#ffff"
+            android:layout_margin="10dp"
+            android:onClick="Pindah"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
