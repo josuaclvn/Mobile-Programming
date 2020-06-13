@@ -23,6 +23,7 @@ import java.util.ArrayList;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 private MenuAdapter menuAdapter;
@@ -37,15 +38,19 @@ private RequestQueue requestQueue;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setContentView(R.layout.item_menu);
         recyclerView=findViewById(R.id.rv_list);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+
         menus=new ArrayList<>();
         requestQueue= Volley.newRequestQueue(this);
         parseJSON();
+
+
     }
+
+
 
     private void parseJSON() {
         String url="https://olympias.000webhostapp.com/koneksi.php";
@@ -60,7 +65,10 @@ private RequestQueue requestQueue;
                                 String gambarmenu = data.getString("gambar");
                                 String namamenu = data.getString("room");
                                 String hargamenu = data.getString("harga");
-                                menus.add(new menu(namamenu, hargamenu, gambarmenu));
+                                String deskripsimenu = data.getString("deskripsi");
+                                String adventagemenu = data.getString("adventage");
+                                String facilitymenu = data.getString("facility");
+                                menus.add(new menu(namamenu, hargamenu, gambarmenu,deskripsimenu,adventagemenu,facilitymenu));
                             }
                             menuAdapter = new MenuAdapter(MainActivity.this, menus);
                             recyclerView.setAdapter(menuAdapter);
@@ -75,10 +83,5 @@ private RequestQueue requestQueue;
             }
     });
         requestQueue.add(request);
-    }
-
-    public void Pindah(View view) {
-        Intent intent = new Intent(MainActivity.this, DetailActivity.class);
-        startActivity(intent);
     }
 }
